@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teamwork</title>
-    <link rel="stylesheet" href="./css/pages/home.css">
-    <link rel="stylesheet" href="./css/base/layout.css">
-</head>
-
-<body>
-    <div id="app">
+export function LetsWork() {
+    
+   HTML = ` <div id="app">
      
         <div class="container">
         
@@ -40,19 +30,11 @@
         </div>
 
 
-    </div>
-         
- 
+    </div>`;
 
-  
-
-
+}  document
+       .getElementById('app')
+       .insertAdjacentHTML('beforeend', HTML);  
 
 
-
-
-
-    <script src="./js/pages/home.js" type="module"></script>
-</body>
-
-</html>
+    
