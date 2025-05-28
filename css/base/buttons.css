@@ -1,0 +1,29 @@
+.btn-blue {
+    padding: 0.5em 0.5em;
+    font-size: 2rem;
+    border-radius: 0.2em;
+    background-color:#1360ef;
+    border-color: #1360ef;
+    transition-duration:  0.7s;
+    color: #fff;
+}
+.btn-blue:hover {
+    background-color: orangered;
+    border-color: orangered;
+    transition-duration:  0.7s;
+}
+.btn-white {
+    padding: 0.5em 0.5em;
+    font-size: 2rem;
+    border-radius: 0.2em;
+    background-color:#fff;
+    border-color: #1360ef;
+    transition-duration:  0.7s;
+    color: #1360ef;
+}
+.btn-white:hover {
+    background-color: orangered;
+    color: #fff;
+    border-color: orangered;
+    transition-duration:  0.7s;
+}
