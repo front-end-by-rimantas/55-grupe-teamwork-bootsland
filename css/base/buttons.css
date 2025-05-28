@@ -1,6 +1,6 @@
 .btn-blue {
     padding: 0.5em 0.5em;
-    font-size: 2em;
+    font-size: 2rem;
     border-radius: 0.2em;
     background-color:#1360ef;
     border-color: #1360ef;
@@ -14,7 +14,7 @@
 }
 .btn-white {
     padding: 0.5em 0.5em;
-    font-size: 2em;
+    font-size: 2rem;
     border-radius: 0.2em;
     background-color:#fff;
     border-color: #1360ef;
