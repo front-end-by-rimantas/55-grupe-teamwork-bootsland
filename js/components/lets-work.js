@@ -8,7 +8,7 @@ export function letsWork() {
                                          
                  <div class="lets-work-text col-6">
                 
-                    <h6>Ever crated for</h6>
+                    <h6>Ever created for</h6>
                     <h1>Let's Work With</h1>
                     <h1>Bootsland</h1>
                     <h5>Build a Beautiful, Clean & Modern Design website with flexible Bootstrap components.</h5>
