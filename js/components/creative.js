@@ -9,7 +9,7 @@ export function creative() {
             <div>
                 <i></i>
             </div>
-            <h2>We're A Creative Software Landing Page</h3>
+            <h2>We're A Creative Software Landing Page</h2>
             <p>We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
             <ul>
                 <li>Fully Responsive</li>
