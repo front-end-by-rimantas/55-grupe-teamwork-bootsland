@@ -3,7 +3,7 @@ export function creative() {
     let HTML = `
     <div class="creative">
         <div class="col-12 col-lg-6">
-            <img src="#" alt="ketveriukė">
+            <img src="img/020.png" alt="ketveriukė">
         </div>
         <div class="col-12 col-lg-6">
             <div></div>
