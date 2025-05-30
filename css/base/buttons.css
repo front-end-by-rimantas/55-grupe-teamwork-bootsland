@@ -1,0 +1,34 @@
+.btn-blue {
+    padding: 0.65rem;
+    padding-inline-end: 1.2em;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    background-color:#1360ef;
+    border-color: #1360ef;
+    transition-duration:  0.7s;
+    color: #fff;
+}
+.btn-blue:hover {
+    background-color: orangered;
+    border-color: orangered;
+    transition-duration:  0.7s;
+}
+.btn-white {
+    padding: 0.65rem;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    background-color:#fff;
+    border-color: #1360ef;
+    transition-duration:  0.7s;
+    color: #1360ef;
+}
+.btn-white:hover {
+    background-color: orangered;
+    color: #fff;
+    border-color: orangered;
+    transition-duration:  0.7s;
+}
+
+.container { 
+    background-color:#f8f9fa
+}

@@ -1,3 +1,42 @@
 .lets-work-text { 
-    padding-top: 3rem;
+    padding-top: rem;
 }
+.h1-1 { 
+    font-size: 3.3rem;
+
+}
+
+.h1-2 { 
+    font-size: 3.3rem;
+    color: #1360ef;
+    font-family: poppins, sans-serif;
+
+}
+
+.h5-1 {
+    color: rgb(140, 152, 164);
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+} 
+
+
+
+.badge { 
+        background-color: rgba(19, 96, 239, .1);
+    color: #1360ef;
+    font-size: small;
+    width: fit-content; 
+    border-radius: 0.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold
+
+    
+}
+
+.bt { 
+    margin-bottom: 3rem;
+
+}
+
+
