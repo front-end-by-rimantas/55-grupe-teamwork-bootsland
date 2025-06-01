@@ -14,7 +14,7 @@ export function creative() {
         </div>
         <div class="col-12 col-lg-6">
             <div class="ikon-area">
-                <i></i>
+                <i class"fa fa-exclamation"></i>
             </div>
             <h2 class="title">We're A Creative Software Landing Page</h2>
             <p class="description">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>

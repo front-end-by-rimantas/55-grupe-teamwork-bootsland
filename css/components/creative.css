@@ -35,29 +35,10 @@
     display: flex;
     width: 70px;
     height: 70px;
+    border-radius: 6px;
     background-color: #cfe2ff;
 }
 
-
-/* 
-.bttn-blue {
-    padding: 0.65rem;
-    padding-inline-end: 1.2em;
-    font-size: 1.1em;
-    border-radius: 0.4em;
-    background-color:#1360ef;
-    border-color: #1360ef;
-    transition-duration:  0.7s;
-    color: #fff;
- 
+i {
+    color: red;
 }
-.bttn-white {
-    padding: 0.65rem;
-    font-size: 1.1em;
-    border-radius: 0.4em;
-    background-color:#fff;
-    border-color: #1360ef;
-    transition-duration:  0.7s;
-    color: #1360ef;
-}
-    */
