@@ -6,6 +6,13 @@
 @import '../vendors/font-awesome.min.css';
 
 /* components */
+
+@import '../components/trio-tabs.css';
+
 @import '../base/buttons.css';
 
+
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */
+
+
+
