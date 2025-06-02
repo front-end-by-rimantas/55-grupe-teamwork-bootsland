@@ -1,8 +1,22 @@
-.lets-work-text { 
-    padding-top: rem;
+.row { 
+    display: flex;
 }
+
+.img { 
+    max-width: 100%;
+    height: auto;
+}
+ 
+
+.columy { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .h1-1 { 
     font-size: 3.3rem;
+    line-height: 1.1;
    
 } 
 
@@ -12,6 +26,7 @@
     font-size: 3.3rem;
     color: #1360ef;
     font-family: poppins, sans-serif;
+    line-height: 1.1;
  
 
 }
@@ -30,23 +45,70 @@
     background-color: rgba(19, 96, 239, .1);
     color: #1360ef;
     font-size: small;
-    width: fit-content; 
-    border-radius: 0.3rem;
+   
+    width: 6.7rem;
+    border-radius: 0.25rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
      
 } 
 
+.knobs { 
+     display: flex;
     
+    justify-content: flex-start;
+     gap: 0.3rem;
+}
 
+.btn-learn-more { 
+ 
+   
+    justify-content: center;
+   width: 120px;
+    height: 48px;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background-color:#1360ef;
+    border-color: #1360ef;
+    transition-duration:  0.7s;
+    color: #f8f9fa;
 
-.bt { 
-    margin-bottom: 3rem;
-
+}
+.btn-learn-more:hover {
+    background-color: orangered;
+    border-color: orangered;
+    transition-duration:  0.7s;
 }
 
 
 
-.container { 
-    background-color:#f8f9fa
+
+.btn-get-started{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 48px;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    border-color: #1360ef;
+    transition-duration:  0.7s;
+    color: #1360ef;
+
+
 }
+.btn-get-started:hover {
+    background-color: orangered;
+    color:  #f8f9fa;
+    border-color: orangered;
+    transition-duration:  0.7s;
+}
+
+
+
+
+
