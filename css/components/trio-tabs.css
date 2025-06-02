@@ -1,4 +1,6 @@
-
+.trio-tabs {
+    gap: 2rem
+}
 
 .trio-logo {
     display: flex;
