@@ -1,24 +1,18 @@
-
-.btn-blue {
-    padding: 0.5em 0.5em;
-    font-size: 2rem;
-    text-transform: capitalize;
-    border-radius: 0.3em;
-    background-color:#1360ef;
-    border-color: #1360ef;
-    transition-duration:  0.7s;
-    color: #f8f9fa;
-}
-.btn-blue:hover {
-    background-color: orangered;
-    border-color: orangered;
-    transition-duration:  0.7s;
+.creative {
+    font-family: 'century Gothic';
 }
 .btn-white {
-    padding: 0.5em 0.5em;
-    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 70px;
+    font-family: 'century Gothic';
+    font-size: 1.7rem;
+    font-weight: 600;
     text-transform: capitalize;
-    border-radius: 0.3em;
+    border-radius: 10px;
     background-color:#f8f9fa;
     border-color: #1360ef;
     transition-duration:  0.7s;
@@ -41,4 +35,7 @@
 
 i {
     color: red;
+}
+.title {
+    font-size: 1.7rem;
 }
