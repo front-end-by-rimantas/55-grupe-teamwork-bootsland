@@ -1,0 +1,26 @@
+
+
+.trio-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.trio-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d1d33;
+    margin-bottom: 1.5rem;
+}
+
+.trio-desc {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color:#8090b5;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
