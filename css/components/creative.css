@@ -36,19 +36,20 @@
     color: #fff;
     position: absolute;
     top: 0.2rem;
-    right: 1.05rem;
+    right: 0.95rem;
 
 }
 .title {
     margin: 2vh 0;
     font-size: 2.5rem;
-    line-height: 4rem;
+    font-weight: 300;
     color: #1d1d33;
 
 }
 .description {
     font-size: x-large;
     line-height: 2.5rem;
+    font-weight: 200;
     margin: 2vh 0;
     color: #8090b5;
 }
@@ -65,6 +66,6 @@ ul {
     margin-top: 6vh;
 }
 .fa {
-    padding: 0.7rem 0.5rem;
+    padding: 0.7rem 0.6rem;
     border-radius: 0.4rem;
 }
