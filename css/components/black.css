@@ -1,6 +1,35 @@
-black {
-    background: url(/img/black/black.png) no-repeat center fixed;
-    width: 100%;
-    height: 100vh;
+.black {
+    background: #060927;
+}
+ 
+.black h1 {
+    color: #fff;
+    font-size: 2.4em;
+    font-weight: normal;
 }
 
+.dark-platforma {
+    background: rgba(120, 126, 137, 0.02);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 1.5em;
+} 
+
+.platforma {
+    display: flex;
+    align-items: center;
+   
+}
+
+.platforma h2 {
+    color: #fff;
+    margin-left: 1em;
+    font-weight: normal;
+}
+
+.desc {
+    color: #8090b5;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    }
