@@ -4,7 +4,7 @@ export function creative() {
     let liHTML = '';
 
     for (const li of creativeData) {
-        liHTML += `<li><i class="fa fa-regular fa-check"></i>${li}</li>`;
+        liHTML += `<li><i class="fa fa-check"></i>${li}</li>`;
     }
 
     let HTML = `
