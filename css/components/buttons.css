@@ -3,39 +3,40 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 0;
-    height: 70px;
-    font-size: 1.7rem;
+    padding: 0.9rem 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
     text-transform: capitalize;
     border-radius: 10px;
     background-color:#1360ef;
     border-color: #1360ef;
-    transition-duration:  0.7s;
+    transition-duration:  0.6s;
     color: #f8f9fa;
 }
 .btn-blue:hover {
     background-color: orangered;
     border-color: orangered;
-    transition-duration:  0.7s;
+    transition-duration:  0.6s;
 }
+ 
 .btn-white {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 0;
-    height: 70px;
-    font-size: 1.7rem;
+    padding: 0.9rem 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
     text-transform: capitalize;
     border-radius: 10px;
     background-color: #f8f9fa;
     border-color: #1360ef;
-    transition-duration:  0.7s;
+    transition-duration:  0.6s;
     color: #1360ef;
 }
 .btn-white:hover {
     background-color: orangered;
     color:  #f8f9fa;
     border-color: orangered;
-    transition-duration:  0.7s;
+    transition-duration:  0.6s;
 }
