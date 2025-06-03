@@ -69,3 +69,7 @@ ul {
     padding: 0.7rem 0.6rem;
     border-radius: 0.4rem;
 }
+
+.creative img {
+    width: 100%;
+}
