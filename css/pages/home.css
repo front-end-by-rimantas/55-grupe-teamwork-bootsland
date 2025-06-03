@@ -6,6 +6,8 @@
 @import '../vendors/font-awesome.min.css';
 
 /* components */
+
+@import '../components/creative.css';
 @import '../components/buttons.css';
 @import '../components/trio-tabs.css';
 @import '../components/black.css';
