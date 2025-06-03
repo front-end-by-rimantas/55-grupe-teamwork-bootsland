@@ -1,15 +1,11 @@
-.creative {
-    font-family: 'century Gothic';
-}
-
 .btn-white {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 0.9rem 1.2rem;
     font-size: 1.2rem;
     font-weight: 600;
+    font-family: 'century Gothic';
     text-transform: capitalize;
     border-radius: 10px;
     background-color: #f8f9fa;
@@ -28,33 +24,47 @@
     background-color:#cfe2ff ;
 }
 .icon-area {
-    margin-bottom: 1.5vh;
-    padding: 0.7rem 1.4rem;
+    width: 3.8rem;
+    height: 3.8rem;
     border-radius: 0.4rem;
     font-size: xx-large;
     background-color: #cfe2ff;
     color: #fff;
+    position: relative;
+}
+.icon-area i {
+    color: #fff;
+    position: absolute;
+    top: 0.2rem;
+    right: 1.05rem;
+
 }
 .title {
+    margin: 2vh 0;
     font-size: 2.5rem;
-    line-height: 3.4rem;
+    line-height: 4rem;
     color: #1d1d33;
+
 }
 .description {
     font-size: x-large;
-    line-height: 2.4rem;
-    margin: 1vh 0;
+    line-height: 2.5rem;
+    margin: 2vh 0;
     color: #8090b5;
 }
 ul {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    font-size: large;
+    padding-right: rem;
+    font-size: 1.2rem;
     color: #8090b5;
     line-height: 2.5rem;
-    gap: 0.6rem 3rem;
+    gap: 0.8rem 6.2rem;
 }
 .button {
-    margin-top: 3.7vh;
+    margin-top: 6vh;
+}
+.fa {
+    padding: 0.7rem 0.5rem;
+    border-radius: 0.4rem;
 }
