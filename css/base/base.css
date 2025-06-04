@@ -6,5 +6,20 @@ body * {
 }
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'century Gothic';
+
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+}
+
+.creative {
+  background-color: #f8f9fa;
+
 }
