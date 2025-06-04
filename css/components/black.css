@@ -18,14 +18,14 @@
 } 
 
 .platforma {
-    display: flex;
+  display: flex;
 }
 
 .platforma h2 {
     text-align: center;
     color: #fff;
     font-size: 1.5em;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 
 .desc {
