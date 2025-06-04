@@ -1,3 +1,8 @@
+.container.creative {
+    display: flex;
+    align-items: center;
+}
+
 .btn-white {
     display: flex;
     align-items: center;
@@ -59,6 +64,7 @@ ul {
     color: #8090b5;
     line-height: 2.5rem;
     gap: 0.8rem 6.2rem;
+    list-style-type: none;
 }
 .button {
     margin-top: 6vh;
