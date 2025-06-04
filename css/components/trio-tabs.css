@@ -1,5 +1,5 @@
 .trio-logo {
-    display: flex;
+    display:  flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
@@ -19,6 +19,12 @@
     text-align: center;
     align-items: center;
     color:#8090b5;
+    line-height: 1.5em;
     font-size: 1.2rem;
     margin-bottom: 2rem;
+}
+
+.trio-logo img {
+    height: 4rem;
+    object-fit: contain;
 }
