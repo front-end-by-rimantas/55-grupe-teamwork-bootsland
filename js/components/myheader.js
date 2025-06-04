@@ -1,4 +1,4 @@
-export function myheader() {
+export function header() {
 
     let HTML = `
         <div id="app" class="container header header-fixed">
