@@ -1,0 +1,19 @@
+.focus {
+    
+
+}
+.text h1 {
+
+    font-size: 5rem;
+}
+.client img {
+    width: 6rem;
+    height: 6rem;
+    object-fit: contain;
+    border-radius: 5rem;
+    box-shadow: 0 0.5rem 1rem rgba(110, 0, 255, .15);
+}
+
+.foto img {
+    width: 70%;
+ }
