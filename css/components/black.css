@@ -16,16 +16,11 @@
     gap: 1.5em;
 } 
 
-.platforma {
-    display: flex;
-    align-items: center;
-   
-}
 
 .platforma h2 {
+
     color: #fff;
-    margin-left: 1em;
-    font-weight: normal;
+    font-size: 1.5em;
 }
 
 .desc {
@@ -34,3 +29,7 @@
     font-size: 1.2em;
     }
 
+.platforma img {
+    width: 4rem;
+    object-fit: contain;
+}
