@@ -1,11 +1,11 @@
 .btn-blue {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 0.9rem 1.2rem;
     font-size: 1.2rem;
     font-weight: 600;
+    font-family: 'century Gothic';
     text-transform: capitalize;
     border-radius: 10px;
     background-color:#1360ef;
@@ -18,15 +18,14 @@
     border-color: orangered;
     transition-duration:  0.6s;
 }
- 
 .btn-white {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 0.9rem 1.2rem;
     font-size: 1.2rem;
     font-weight: 600;
+    font-family: 'century Gothic';
     text-transform: capitalize;
     border-radius: 10px;
     background-color: #f8f9fa;
@@ -40,3 +39,5 @@
     border-color: orangered;
     transition-duration:  0.6s;
 }
+
+

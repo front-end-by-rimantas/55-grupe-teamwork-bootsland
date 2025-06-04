@@ -4,14 +4,23 @@ body * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;  
-  background-color:#f8f9fa;
 }
  
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'century Gothic';
+  background-color: #f8f9fa;
 }
- 
+
 img { 
   object-fit: contain;
   width: 100%;
 }
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+

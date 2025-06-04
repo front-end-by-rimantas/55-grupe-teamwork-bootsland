@@ -1,0 +1,30 @@
+.trio-logo {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+
+.trio-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d1d33;
+    margin-bottom: 2rem;
+}
+
+.trio-desc {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color:#8090b5;
+    line-height: 1.5em;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.trio-logo img {
+    height: 4rem;
+    object-fit: contain;
+}
