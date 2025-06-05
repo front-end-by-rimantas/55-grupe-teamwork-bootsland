@@ -1,0 +1,51 @@
+.section-client {
+    padding: 3rem 0rem;
+    position: relative !important;
+}
+.shape-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+.client-row {
+    position: relative;
+}
+.icon-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 0.4rem;
+    font-size: xx-large;
+    background-color: #cfe2ff;
+    color: #fff;
+}
+.icon-area i {
+    color: #fff;
+}
+.client .icon-area {
+    margin-top: 4rem;
+    background-color: rgb(7, 16, 13);
+}
+.client-column .title {
+    color: #fff;
+}
+.client-column .description {
+    margin-bottom: 5rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.client-column {
+    padding: 4rem 0;
+    margin: 0;
+}
+.card-row {
+    background-color: darksalmon;
+}
