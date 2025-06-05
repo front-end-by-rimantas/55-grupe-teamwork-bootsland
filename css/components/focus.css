@@ -1,13 +1,22 @@
-.focus {
-    
 
+.focus-title {
+    margin: 2vh 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #1d1d33;
 }
-.text h1 {
 
-    font-size: 5rem;
+.focus-desc {
+    font-size: x-large;
+    line-height: 2.5rem;
+    font-weight: 200;
+    margin: 2vh 0;
+    color: #8090b5;
 }
 .client {
-    flex-wrap: wrap;
+  
+    
+  
 }
 .client img {
     width: 6rem;
@@ -18,5 +27,5 @@
 }
 
 .foto img {
-    width: 70%;
+  
  }
