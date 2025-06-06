@@ -6,8 +6,17 @@ export function client() {
     for (let i = 0; i < clientData.length; i++) {
         const card = clientData[i];
         cardsHTML += `
-            <div class="col-12 col-md-6 col-lg-4">
-                CARD
+            <div class="col-12 col-md-6 col-lg-4 visit-card">
+                <div class="column-img">
+                    <img class="person-img" src="./img/client-img/${card.img}" alt="${card.imgAlt}">
+                </div>
+                <div card-column>
+                    <p class="intro">${card.introduction}</p>
+                    <div class="person-row">
+                        <h3 class="person-name">${card.personality}</h3>
+                        <p class="person-onus" >${card.duties}</p>
+                    </div>
+                </div>
             </div>`;
     }
 
@@ -26,7 +35,7 @@ export function client() {
                 <h2 class="title">Discover Our Client Feedback</h2>
                 <p class="description">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>
             </div>
-            <div class="card-row">${cardsHTML}</div>
+            <div class="card-bar">${cardsHTML}</div>
         </div>
     </div>  `;
 

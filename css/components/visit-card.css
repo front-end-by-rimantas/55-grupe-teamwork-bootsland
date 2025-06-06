@@ -1,0 +1,36 @@
+.vist-card {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+}
+ .column-img {
+     display: flex; 
+} 
+.person-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem rgba(110, 0, 255, .15);
+}
+.card-column {
+    flex-direction: column;
+    /* width: calc (100% - 6rem); */
+    align-items: flex-start;
+}
+.person-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: first baseline;
+}
+.person-name {
+    padding-right: 0.4rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: #1360ef;
+}
+.intro {
+    color: #8090b5;
+}
+.person-onus {
+    color: #8090b5;
+}

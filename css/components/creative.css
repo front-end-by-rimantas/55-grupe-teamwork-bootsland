@@ -1,4 +1,4 @@
-.container.creative {
+.container .creative {
     display: flex;
     align-items: center;
 }

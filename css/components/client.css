@@ -1,4 +1,4 @@
-.section-client {
+.container .section-client {
     padding: 3rem 0rem;
     position: relative !important;
 }
@@ -10,7 +10,7 @@
     width: 100%;
 }
 svg:not(:root) {
-    overflow-clip-margin: content-box;
+    /* overflow-clip-margin: content-box; */
     overflow: hidden;
 }
 .client-row {
@@ -46,6 +46,9 @@ svg:not(:root) {
     padding: 4rem 0;
     margin: 0;
 }
-.card-row {
-    background-color: darksalmon;
+
+@media (max-width: 992px) {
+    .transform-md-rotate {
+        transform: rotate(90deg);
+    }
 }
