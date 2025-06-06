@@ -7,10 +7,8 @@ export function client() {
         const card = clientData[i];
         cardsHTML += `
             <div class="col-12 col-md-6 col-lg-4 visit-card">
-                <div class="column-img">
-                    <img class="person-img" src="./img/client-img/${card.img}" alt="${card.imgAlt}">
-                </div>
-                <div card-column>
+                <img class="person-img" src="./img/client-img/${card.img}" alt="${card.imgAlt}">
+                <div class="card-column">
                     <p class="intro">${card.introduction}</p>
                     <div class="person-row">
                         <h3 class="person-name">${card.personality}</h3>
@@ -21,8 +19,8 @@ export function client() {
     }
 
     let HTML = `
-    <div class="container section-client">
-        <div class="shape-2 transform-md-rotate" style="overflow: hidden">
+    <div class="section-client">
+        <div class="client-bgr">
             <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
                 <path d="M208.09,0.00 C152.70,67.10 262.02,75.98 200.80,150.00 L0.00,150.00 L0.00,0.00 Z" style="stroke: none; fill: #1360ef;"></path>
             </svg>

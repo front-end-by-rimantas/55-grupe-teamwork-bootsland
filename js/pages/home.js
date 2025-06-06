@@ -8,7 +8,6 @@ import { black } from "../components/black.js";
 import { client } from "../components/client.js";
 
 
-
 header();
 letsWork();
 trioTabs();
