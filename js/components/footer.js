@@ -2,24 +2,25 @@ export function footer() {
     const HTML = `
         <footer class="container blue">
             <div class="row">
-                <div class="newsletter">
                 <form class="col-12 col-lg-4">
-                      <h3>Newsletter</h3>
+                    <div class="newsletter">
+                        <h3 class="text">Newsletter</h3>
                     <div class="subscribe">
-                        <label for="email">Subscribe Our Newsletter</label>
-                        </div>
+                        <label for="text">Subscribe Our Newsletter</label>
+                    </div>
                     <div class="email">
                         <input id="email" type="email" name="email" value="" maxlength="50" placeholder="Email Address" required>
                     </div>
-                
                     <div class="btn">
                         <button class="subscribe">Subscribe</button>
                     </div>
-                      <div >
+                    <div class="sub-text">
                         <p>Get started for 1 Month free trial No Purchace required.</p>
+                      </div>
+
                     </div>
                </form>
-               </div>
+            </div>
                     <div class="col-12 col-sm-4 col-lg-2">
                         <p>Pages</p>
                         <a href="#">Link</a>
