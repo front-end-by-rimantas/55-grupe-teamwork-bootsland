@@ -7,7 +7,9 @@ export function footer() {
                       <h3>Newsletter</h3>
                     <div class="subscribe">
                         <label for="email">Subscribe Our Newsletter</label>
-                        <input id="email" type="email" name="email" value="" maxlength="60" placeholder="Email Address" required>
+                        </div>
+                    <div class="email">
+                        <input id="email" type="email" name="email" value="" maxlength="50" placeholder="Email Address" required>
                     </div>
                 
                     <div class="btn">
