@@ -5,12 +5,18 @@ import { creative } from "../components/creative.js";
 import { black } from "../components/black.js";
 import { focus } from "../components/focus.js";
 
+
+import { footer } from "../components/footer.js";
+
 header();
 letsWork();
 trioTabs();
 creative();
 black();
 focus();
+
+
+footer();
 
 
 
