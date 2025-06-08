@@ -1,9 +1,10 @@
  import { clientData } from "../data/clientData.js";
 
 export function client() {
-   let cardsHTML = '';
+    let cardsHTML = '';
 
     for (let i = 0; i < clientData.length; i++) {
+
         const card = clientData[i];
         cardsHTML += `
             <div class="col-12 col-md-6 col-lg-4 visit-card">
@@ -25,16 +26,18 @@ export function client() {
                 <path d="M208.09,0.00 C152.70,67.10 262.02,75.98 200.80,150.00 L0.00,150.00 L0.00,0.00 Z" style="stroke: none; fill: #1360ef;"></path>
             </svg>
         </div>
-        <div class="col-12 client-row">
+        <div class="client-row">
             <div class="col-12 col-lg-4 client-column">
-                <div class="icon-area">
+                <div class="blue-area">
                     <i class="fa fa-users"></i>
                 </div>
                 <h2 class="title">Discover Our Client Feedback</h2>
                 <p class="description">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>
+            </div>        
+            <div clas="col-12 col-md-6 col-lg-4 cards-bar">
+                <div class="cards">${cardsHTML}</div>
             </div>
-            <div class="card-bar">${cardsHTML}</div>
-        </div>
+        </div>           
     </div>  `;
 
     document

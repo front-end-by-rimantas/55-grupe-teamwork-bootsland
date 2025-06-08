@@ -1,33 +1,26 @@
-.client-row {
-    align-items: center;
-}
 .visit-card {
     display: flex;
-    margin: 1rem 0 1rem 1.5rem;
+    flex-direction: column;
+    width: auto;
+    padding-left: 1rem;
+    margin: 1rem;
     background-color: #fff;
     border-radius: 0.4rem;
+    box-shadow:  0rem 0.5rem 1rem rgba(111, 0, 255, 0.022);
+    position: relative; 
 }
 .person-img {
-    margin: 1.5rem 1rem 4rem 1.5rem;
-    width: 5rem;
-    height: 5rem;
+    margin: 1.5rem 1rem 1.5rem 0.5rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
-    box-shadow: 0 0.5rem 1rem rgba(110, 0, 255, .15);
-}
-.card-column {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1.5rem 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(111, 0, 255, 0.151);
 }
 .intro {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
     color: #8090b5;
-}
-.person-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: first baseline;
-    margin-top: 1rem;
 }
 .person-name {
     padding-right: 0.4rem;
@@ -36,5 +29,13 @@
     color: #1360ef;
 }
 .person-onus {
+    font-size: 0.9rem;
     color: #8090b5;
 }
+.person-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1.5rem;
+    align-items: first baseline;
+}
+

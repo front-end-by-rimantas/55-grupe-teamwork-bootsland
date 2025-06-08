@@ -24,16 +24,12 @@
     border-color: orangered;
     transition-duration:  0.6s;
 }
-.fa {
-    color: #1360ef;
-    background-color:#cfe2ff ;
-}
 .icon-area {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3.8rem;
-    height: 3.8rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 0.4rem;
     font-size: xx-large;
     background-color: #cfe2ff;
@@ -73,5 +69,7 @@ ul {
 .fa-check {
     padding: 0.6rem 0.4rem;
     border-radius: 0.4rem;
+    color: #1360ef;
+    background-color:#cfe2ff ;
 }
 
