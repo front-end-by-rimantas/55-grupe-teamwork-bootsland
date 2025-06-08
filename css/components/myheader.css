@@ -1,19 +1,17 @@
 .header {
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     padding-top: 0;
     padding-bottom: 0;
     background-color: #f8f9fa;
-/*    box-shadow: 0px 1px 80px 0px #dcdcf9b8;*/
 }
 .header .header-content {
+    position: relative;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 6vh;
 }
 .header .logo {
     display: flex;
@@ -54,10 +52,9 @@
 .header .hamburger {
     font-size: 2rem;
     padding: 0.3rem 0.45rem;
-    color: #1d1d33;
-    font-weight: 200;
+    color: #495057;
     background-color: #fff;
-    border: 1px solid #8090b5;
+    border: 5px solid #495057;
 }
 .btn-blue {
     display: none;
@@ -84,3 +81,32 @@
         margin-right: auto;
     }
 }
+/* box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important; */
+
+
+/* .mobile-main-header {
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    translate: 0 -100;
+    transition: all 1s;
+} */
+.mobile-main-header {
+    translate: 50% 25vh;
+    transition: all 1s;
+}
+.mobile-main-header .main-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.mobile-main-header a:first-child {
+    color: #1360ef;
+}   
+.mobile-main-header a:hover {
+    color: #1360ef;
+    transition: 0.6s;
+} 

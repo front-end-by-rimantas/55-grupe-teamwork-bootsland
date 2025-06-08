@@ -1,5 +1,6 @@
-export function header() {
+import { headerMenuData } from "../data/myheaderData.js";
 
+export function header() {
     let HTML = `
         <div id="app" class="container header header-fixed">
             <div class="row">
@@ -7,19 +8,41 @@ export function header() {
                     <div class="logo">       
                         <a class="startlogo" href="#">boots<span class="endlogo">Land.</span></a>
                     </div> 
-                    <div class="main-nav">
-                        <a class="link" href="#">home</a>
-                        <a class="link" href="#">pages</a>
-                        <a class="link" href="#">shop</a>
-                        <a class="link" href="#">features</a>   
-                    </div>                    
+                    ${headerMenu(headerMenuData)}
                     <i class="fa fa-bars hamburger"></i>
                     <button class="btn-blue" type="submit">buy now</button>
                 </div>
             </div>
+        </div>
+        <div class="mobile-main-header">
+        ${headerMenu(headerMenuData)}
         </div>`;
 
     document
         .getElementById('app')
         .insertAdjacentHTML('beforeend', HTML);
+        
+        const hamburgerDOM = document.querySelector('.hamburger');
+        const mobileHeaderDOM = document.querySelector('.mobile-main-header');
+        
+    hamburgerDOM.addEventListener('click', () => {
+        mobileHeaderDOM.classList.add('show');
+    })
+
+    addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+            mobileHeaderDOM.classList.remove('show');
+        }
+    })
 }
+
+function headerMenu(data) {
+    let HTML = '';
+
+    for (const link of headerMenuData) {
+        HTML += `<a class="link" href="${link.href}">${link.text}</a>`;
+    }
+    return `<nav class="main-nav">${HTML}</nav>`;
+}
+
+
