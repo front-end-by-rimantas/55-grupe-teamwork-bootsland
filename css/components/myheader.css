@@ -1,5 +1,4 @@
 .header {
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -84,3 +83,10 @@
         margin-right: auto;
     }
 }
+
+
+
+
+
+
+ /* box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important; */
