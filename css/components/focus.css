@@ -1,0 +1,53 @@
+
+.focus-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13rem;
+}
+
+.focus-title {
+    margin: 2vh 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #1d1d33;
+}
+
+.focus-desc {
+    font-size: x-large;
+    line-height: 2.5rem;
+    font-weight: 200;
+    margin: 2vh 0;
+    color: #8090b5;
+}
+.client {
+    display:flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.client img {
+    width: 6rem;
+    height: 6rem;
+    object-fit: contain;
+    border-radius: 5rem;
+    box-shadow: 0 0.5rem 1rem rgba(110, 0, 255, .15);
+}
+
+.client-text {
+    padding-left: 2rem;
+    line-height: 2.5em;
+}
+.client-name {
+    font-style: normal;
+}
+ 
+.client-desc {
+    color: #8090b5;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+@media (min-width: 992px) {
+  .foto img {
+    width: 100%;
+  }
+}
