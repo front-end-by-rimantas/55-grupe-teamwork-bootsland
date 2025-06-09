@@ -8,9 +8,9 @@
     margin-bottom: 2rem;
 }
 .newsletter {
-   gap: 1rem 
- 
-}
+   background-color: rgba(250, 215, 118, .1);
+   padding: 3rem;
+ }
 .input-email {
     display: flex;
     align-self: start;
@@ -19,7 +19,7 @@
 
 .email-form {
     width: 100%;
-    padding: 0.4rem 0.7rem;
+    padding: 0.4rem 0.8rem;
     font-size: 0.8rem;
 }
 .newsletter .subscribe {
@@ -53,5 +53,10 @@
     font-size: 1.2em;
     color: #f8f9fa;
     margin-top: 0.5rem;
+}
+
+.links > p {
+    display: flex;
+    flex-direction: column;
 }
 

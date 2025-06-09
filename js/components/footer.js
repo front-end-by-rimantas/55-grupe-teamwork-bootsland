@@ -9,7 +9,7 @@ export function footer() {
                             <label for="text">Subscribe Our Newsletter</label>
                         </div>
                         <div class="input-email">
-                            <input id="email" type="email" name="email" class="email-form" placeholder="Email Address" required style="height: 50px;">
+                            <input id="email" type="email" name="email" class="email-form" placeholder="Email Address" required style="height: 55px;">
                         </div>
                         <div class="btn">
                             <button class="subscribe">Subscribe</button>
@@ -21,22 +21,22 @@ export function footer() {
                </form>
                 <div class="links-title">
                     <div class="links">
-                        <div class="col-12 col-sm-4 m-md-5 col-lg-3">
-                            <p>Pages</p>
+                        <div class="col-12 col-sm-4 col-lg-3">
+                            <p class="pages">Pages</p>
                             <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                        </div>
-                        <div class="col-12 col-sm-4 col-lg-2">
-                            <p>Service</p>
                             <a href="#">Link</a>
                             <a href="#">Link</a>
                             <a href="#">Link</a>
                             <a href="#">Link</a>
                         </div>
                         <div class="col-12 col-sm-4 col-lg-3">
+                            <p>Service</p>
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                            <a href="#">Link</a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-lg-2">
                             <p>Legal</p>
                             <a href="#">Link</a>
                             <a href="#">Link</a>
