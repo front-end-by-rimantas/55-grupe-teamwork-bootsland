@@ -13,7 +13,6 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    transition: all 0.5s;
 }
 
 .header-fixed {
@@ -23,12 +22,15 @@
     top: 0%;
     left: 0%;
     width: 100%;
-    animation: 200ms linear show-header;
+    animation: 2.5s linear show-header;
 }
 @keyframes show-header {
     0% {
         transform: translateY(-100px);
         opacity: 0;
+    }
+    50% {
+        transform: translateY(70px);
     }
     100% {
         transform: translateY(0px);
