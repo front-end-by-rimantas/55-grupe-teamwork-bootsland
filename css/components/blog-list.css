@@ -63,3 +63,20 @@
     justify-content: space-around;
 }
 
+.img-container { 
+    position: relative;
+  
+}
+
+.img-add { 
+    position: absolute;
+    padding: 0.5rem ;
+    background-color:#FFFFFF;
+       box-shadow: 0 0.5rem 1rem rgba(110, 0, 255, .15);
+    margin-left: 1rem ;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    text-align: center;
+   
+
+}
