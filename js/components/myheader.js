@@ -44,7 +44,7 @@ export function header() {
     })
 
     addEventListener('scroll', () => {
-        if (document.scrollingElement.scrollTop > 280) {
+        if (document.scrollingElement.scrollTop > 180) {
             headerDOM.classList.add('header-fixed');
         } else {
             headerDOM.classList.remove('header-fixed');
