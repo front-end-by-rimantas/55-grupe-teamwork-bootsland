@@ -1,0 +1,106 @@
+.blue {
+    background-color: #1360ef;
+}
+
+.blue h3 {   
+    font-size: 1.5em;
+    color: #f8f9fa;
+    margin-bottom: 1rem;
+}
+.newsletter {
+    background-color: rgba(250, 215, 118, .1);
+    padding: 2rem;
+ 
+}
+.input-email {
+    display: flex;
+    align-self: start;
+    margin-bottom: 1rem;    
+}
+
+.email-form {
+    width: 100%;
+    border-radius: 10px;
+    border: 0.1em solid #f8f9fa;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.8rem;
+}
+.newsletter .subscribe {
+    font-size: 1.2em;
+    color: #f8f9fa;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.btn button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem 8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color:#1360ef;
+    border: 0.1em solid #f8f9fa;
+    transition-duration: 0.6s;
+    color: #f8f9fa;
+    margin-top: 0.5rem;
+}
+
+.btn button:hover {
+    background-color: #f8f9fa;
+    color: black;
+    transition-duration: 0.6s;
+}
+.sub-text {
+    font-size: 1.1em;
+    color: #f8f9fa;
+    margin-top: 0.5rem;
+}
+.links-text {
+    display: flex;
+    justify-content: space-around;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    color: #f8f9fa;
+    font-size: 1.5em;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    color: #f8f9fa;
+    font-size: 1.2em;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+
+}
+
+.socials img {
+    width: 12rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+.soc a {
+    background-color: #1360ef;
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0.5rem 0.5rem;
+
+}
+
+.copy {
+    color: #f8f9fa;
+    font-size: 1.2em;
+    margin-top: 2rem;
+    text-align: center;
+}
+
