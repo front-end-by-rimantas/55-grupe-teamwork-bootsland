@@ -12,6 +12,8 @@ Site published at: https://github.com/front-end-by-rimantas/55-grupe-teamwork-bo
 Design:
 https://themeht.com/template/bootsland/html/index.html#
 
+
+
 🎯 Project features/goals
  * Github pages
  * responsive design

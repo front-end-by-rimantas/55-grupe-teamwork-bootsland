@@ -1,7 +1,7 @@
 import { workData } from "../data/lets-workData.js";
 
 export function letsWork() {
-   let h2HTML =  ""
+   let h2HTML =  "";
    for (const h2 of workData) {
       h2HTML +=`<h2 class="h1-1">${h2}</h2>`}
 

@@ -5,6 +5,7 @@ import { creative } from "../components/creative.js";
 import { black } from "../components/black.js";
 import { focus } from "../components/focus.js";
 import { client } from "../components/client.js";
+import {bloglist} from "../components/blog-list.js";  
 import { footer } from "../components/footer.js";
 
 header();
@@ -14,6 +15,7 @@ creative();
 black();
 focus();
 client();
+bloglist(); 
 footer();
 
 

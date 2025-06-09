@@ -8,7 +8,7 @@ export function creative() {
     }
 
     let HTML = `
-    <div class="container creative">
+    <div class="container creative row">
         <div class="col-12 col-lg-6">
             <img src="./img/creative-img/020.png" alt="ketveriukė">
         </div>
