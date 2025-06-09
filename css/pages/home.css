@@ -8,10 +8,14 @@
 
 /* components */
 @import '../components/buttons.css';
+@import '../components/visit-card.css';
+@import '../components/myheader.css';
 @import '../components/lets-work.css';
 @import '../components/trio-tabs.css';
 @import '../components/creative.css';
 @import '../components/black.css';
+@import '../components/focus.css';
+@import '../components/client.css';
 @import '../components/blog-list.css';
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */
