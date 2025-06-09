@@ -27,15 +27,15 @@ export function client() {
             </svg>
         </div>
         <div class="client-row">
-            <div class="col-12 col-lg-4 client-column">
+            <div class="col-12 col-lg-6 client-column">
                 <div class="blue-area">
                     <i class="fa fa-users"></i>
                 </div>
                 <h2 class="title">Discover Our Client Feedback</h2>
                 <p class="description">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>
             </div>        
-            <div clas="col-12 col-md-6 col-lg-4 cards-bar">
-                <div class="cards">${cardsHTML}</div>
+            <div class="cards-bar col-12 col-lg-6">
+                <div class="cards col-12">${cardsHTML}</div>
             </div>
         </div>           
     </div>  `;

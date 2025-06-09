@@ -33,9 +33,12 @@
 }
 .client-row {
     display: flex;
-    flex-direction: column;
     margin: 0;
     gap: 1rem;
+}
+.client-row .cards-bar {
+    display: flex;
+    width: 100%;
 }
 .card-row {
     display: flex;
