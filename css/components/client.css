@@ -11,14 +11,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 0.4rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 0.3rem;
     font-size: xx-large;
     background-color: #2b77e9;
-    color: #fff;
-}
-.blue-area i {
     color: #fff;
 }
 
