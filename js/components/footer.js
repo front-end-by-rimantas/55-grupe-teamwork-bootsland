@@ -50,15 +50,15 @@ export function footer() {
                         </div>
                     </div>
                     <div class="socials">
-                        <div class="col-12 col-sm-6 m-md-5 col-lg-6">
-                            <img src="#" alt="Logo">
-                        <div class="soc">
+                        <div class="col-12 col-sm-6">
+                            <img src="./img/footer/logo-B.png" alt="logo-B">
+                        </div>
+                        <div class="soc col-12 col-sm-6">
                             <a href="#" class="fa fa-facebook"></a>
                             <a href="#" class="fa fa-dribbble"></a>
                             <a href="#" class="fa fa-twitter"></a>
                             <a href="#" class="fa fa-instagram"></a>
                             <a href="#" class="fa fa-linkedin"></a>
-                            </div>
                         </div>
                     </div>
                 </div>

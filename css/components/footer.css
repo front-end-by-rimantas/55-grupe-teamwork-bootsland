@@ -76,19 +76,31 @@
     gap: 1rem;
     margin-top: 1.5rem;
 }
+.socials {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
 
+}
+
+.socials img {
+    width: 12rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
 .soc a {
     background-color: #1360ef;
     color: #f8f9fa;
     text-decoration: none;
     font-size: 1.5em;
-    margin-right: 1rem;
-  
+    padding: 0.5rem 0.5rem;
+
 }
 
 .copy {
     color: #f8f9fa;
     font-size: 1.2em;
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
 }
+
