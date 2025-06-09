@@ -4,8 +4,7 @@ import { trioTabs } from "../components/trio-tabs.js";
 import { creative } from "../components/creative.js";
 import { black } from "../components/black.js";
 import { focus } from "../components/focus.js";
-
-
+import { client } from "../components/client.js";
 import { footer } from "../components/footer.js";
 
 header();
@@ -14,8 +13,7 @@ trioTabs();
 creative();
 black();
 focus();
-
-
+client();
 footer();
 
 
