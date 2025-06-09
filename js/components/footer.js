@@ -9,7 +9,7 @@ export function footer() {
                             <label for="text">Subscribe Our Newsletter</label>
                         </div>
                         <div class="input-email">
-                            <input id="email" type="email" name="email" class="email-form" placeholder="Email Address" required style="height: 55px;">
+                            <input id="email" type="email" name="email" class="email-form" placeholder="Email Address" required style="height: 60px;">
                         </div>
                         <div class="btn">
                             <button class="subscribe">Subscribe</button>
@@ -20,45 +20,51 @@ export function footer() {
                     </div>
                </form>
                 <div class="links-title">
-                    <div class="links">
+                    <div class="links-text">
                         <div class="col-12 col-sm-4 col-lg-3">
-                            <p class="pages">Pages</p>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
+                            <p class="links">Pages</p>
+                            <div class="about">
+                                <a>About</a>
+                                <a>Shop</a>
+                                <a>Faq</a>
+                                <a>Blogs</a>
+                                <a>Contact Us</a>
+                            </div>    
                         </div>
                         <div class="col-12 col-sm-4 col-lg-3">
-                            <p>Service</p>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
+                            <p class="links">Service</p>
+                            <div class="about">
+                                <a>Content Writing</a>
+                                <a>Documentation</a>
+                                <a>Account</a>
+                                <a>Careers</a>
+                            </div>    
                         </div>
-                        <div class="col-12 col-sm-4 col-lg-2">
-                            <p>Legal</p>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
-                            <a href="#">Link</a>
+                        <div class="col-12 col-sm-4 col-lg-3">
+                            <p class="links">Legal</p>
+                            <div class="about">
+                                <a>Term Of Service</a>
+                                <a>Privacy Policy</a>
+                                <a>Support</a>
+                            </div>    
                         </div>
                     </div>
                     <div class="socials">
                         <div class="col-12 col-sm-6 m-md-5 col-lg-6">
                             <img src="#" alt="Logo">
-                        <div>
-                            <a href="#" target="_blank">SOC</a>
-                            <a href="#" target="_blank">SOC</a>
-                            <a href="#" target="_blank">SOC</a>
-                            <a href="#" target="_blank">SOC</a>
-                            <a href="#" target="_blank">SOC</a>
+                        <div class="soc">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-dribbble"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
                     <div class="row">
-                        <p class="col-12">&copy; Copyright 2024 - Current. All Right Reserved</p>
+                        <p class="copy col-12">&copy; Copyright 2019 Bootsland Theme by ThemeHt All Rights Reserved</p>
                     </div>
         </footer>`;
 
