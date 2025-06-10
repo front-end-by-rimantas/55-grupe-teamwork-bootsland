@@ -1,4 +1,4 @@
-.container.creative {
+.container .creative {
     display: flex;
     align-items: center;
 }
@@ -24,10 +24,6 @@
     border-color: orangered;
     transition-duration:  0.6s;
 }
-.fa {
-    color: #1360ef;
-    background-color:#cfe2ff ;
-}
 .icon-area {
     display: flex;
     justify-content: center;
@@ -35,6 +31,7 @@
     width: 3.2rem;
     height: 3.2rem;
     border-radius: 0.3rem;
+
     font-size: xx-large;
     background-color: #cfe2ff;
     color: #fff;
@@ -52,6 +49,7 @@
 .description {
     font-size: x-large;
     line-height: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 200;
     margin: 2vh 0;
     color: #8090b5;
@@ -70,9 +68,15 @@ ul {
     margin-top: 6vh;
 }
 .fa-check {
+
     font-size: 0.8em;
     padding: 0.55em 0.35em;
     border-radius: 0.4em;
     margin-right: 1em;
+    padding: 0.6rem 0.4rem;
+    border-radius: 0.4rem;
+    color: #1360ef;
+    background-color:#cfe2ff ;
+
 }
 
