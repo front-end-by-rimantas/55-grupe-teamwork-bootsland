@@ -1,4 +1,30 @@
+import { footerData } from "../data/footerData.js";    
+
 export function footer() {
+    let linksHTML = '';
+
+    for (let i = 0; i < 1; i++) {
+            const links = footerData[i];
+            linksHTML += `
+            
+                <div class="links-title">
+                    <div class="links-text">
+                        <div class="col-12 col-sm-4 col-lg-3">
+                            <p class="links">Pages</p>
+                             ${links.text} 
+                        </div>
+                        <div class="col-12 col-sm-4 col-lg-3">
+                            <p class="links">Service</p>
+                            ${links.text}  
+                        </div>
+                        <div class="col-12 col-sm-4 col-lg-3">
+                            <p class="links">Legal</p>
+                            ${links.text}  
+                        </div>
+                    </div>`;
+                    
+    }
+
     const HTML = `
         <footer class="container blue">
             <div class="row">
@@ -19,37 +45,8 @@ export function footer() {
                         </div>
                     </div>
                </form>
-                <div class="links-title">
-                    <div class="links-text">
-                        <div class="col-12 col-sm-4 col-lg-3">
-                            <p class="links">Pages</p>
-                            <div class="about">
-                                <a>About</a>
-                                <a>Shop</a>
-                                <a>Faq</a>
-                                <a>Blogs</a>
-                                <a>Contact Us</a>
-                            </div>    
-                        </div>
-                        <div class="col-12 col-sm-4 col-lg-3">
-                            <p class="links">Service</p>
-                            <div class="about">
-                                <a>Content Writing</a>
-                                <a>Documentation</a>
-                                <a>Account</a>
-                                <a>Careers</a>
-                            </div>    
-                        </div>
-                        <div class="col-12 col-sm-4 col-lg-3">
-                            <p class="links">Legal</p>
-                            <div class="about">
-                                <a>Term Of Service</a>
-                                <a>Privacy Policy</a>
-                                <a>Support</a>
-                            </div>    
-                        </div>
-                    </div>
-                    <div class="socials">
+               ${linksHTML}
+               <div class="socials">
                         <div class="col-12 col-sm-6">
                             <img src="./img/footer/logo-B.png" alt="logo-B">
                         </div>
@@ -64,16 +61,13 @@ export function footer() {
                 </div>
             </div>
                     <div class="row">
-                        <p class="copy col-12">&copy; Copyright 2019 Bootsland Theme by ThemeHt All Rights Reserved</p>
+                        <div class="copy">
+                            <p class="copy col-12">&copy; Copyright 2025 Bootsland Theme by <a href="#">ThemeHt</a> All Rights Reserved</p>
+                        </div>    
                     </div>
         </footer>`;
 
     document
         .getElementById('app')
         .insertAdjacentHTML('beforeend', HTML);
-}
-
-
-
-
-
+};
