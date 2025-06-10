@@ -23,9 +23,14 @@ export function bloglist()
                  
   
 const HTML = `
-   <section>
+   <section> 
+                  <span class="row top col-12 anim">
+                    <i class="fa fa-bold fab" aria-hidden="true"></i>
+                    </span>
        <div class="row top col-12 col-6">
+               
                 <div class="top1 col-12 col-xxl-4">
+                     
                     <h3>From Our Blog List Latest Feed</h2>
                 </div>
                 <div class = "top2 col-12  col-xxl-6"> 
