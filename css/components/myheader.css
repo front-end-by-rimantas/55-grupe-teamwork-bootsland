@@ -41,6 +41,7 @@
     font-size: 2rem;
     font-weight: 200;
     padding: 0.3rem 0.45rem;
+    margin: 0;
     color: #495057;
     background-color: #fff;
     border: 5px solid #495057;
@@ -109,7 +110,6 @@
 @media (min-width: 768px) {
     .btn-blue {
         display: flex;
-        margin: 0.3rem 0 0.3rem 2rem;
     }
 } 
 @media (min-width: 992px) {
@@ -129,4 +129,10 @@
     .mobile-main-header {
         display: none;
     }
-}
+    .btn-blue {
+        margin-left: 1.5rem;
+    }
+    .header-content {
+        margin-bottom: 0;
+    }
+ } 
