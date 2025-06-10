@@ -64,7 +64,7 @@ export function footer() {
                 </div>
             </div>
                     <div class="row">
-                        <p class="copy col-12">&copy; Copyright 2019 Bootsland Theme by ThemeHt All Rights Reserved</p>
+                        <p class="copy col-12">&copy; Copyright 2025 Bootsland Theme by <a href="#">ThemeHt</a> All Rights Reserved</p>
                     </div>
         </footer>`;
 

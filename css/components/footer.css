@@ -57,9 +57,14 @@
     color: #f8f9fa;
     margin-top: 0.5rem;
 }
+.links-title {
+    padding: 0 0 3rem 0;
+    border-bottom: 0.1rem solid rgba(250, 215, 118, .1);
+}
 .links-text {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 1rem;
 }
 .links {
     display: flex;
@@ -80,6 +85,7 @@
     display: flex;
     align-items: center;
     padding: 1.2rem;
+   
 
 }
 
@@ -103,4 +109,6 @@
     margin-top: 2rem;
     text-align: center;
 }
-
+footer a {
+    color: #f8f9fa;
+}
