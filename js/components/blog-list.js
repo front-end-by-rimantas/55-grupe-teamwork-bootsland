@@ -16,9 +16,7 @@ export function bloglist()
                     <h3 class="card-h3">${blis.h3}</h3>
                     <h4 class="card-h4">${blis.h4}</h4>
                     <a class="card-ul">                        
-                        <i class="fa fa-comment-o" aria-hidden="true">131</i>                    
-                        <i class="fa fa-eye" aria-hidden="true">25</i>               
-                        <i class="fa fa-comment-o" aria-hidden="true">131</i>                                                            
+                        ${blis.ull}                                                           
                      </a>    
                 </div>`;
    }      
