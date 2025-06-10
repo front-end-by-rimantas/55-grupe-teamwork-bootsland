@@ -24,7 +24,7 @@ export function bloglist()
   
 const HTML = `
    <section> 
-                  <span class="row top col-12 anim">
+                  <span class="row top col-7 m-md-3 anim">
                     <i class="fa fa-bold fab" aria-hidden="true"></i>
                     </span>
        <div class="row top col-12 col-6">

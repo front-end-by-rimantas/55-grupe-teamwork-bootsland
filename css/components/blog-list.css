@@ -5,42 +5,48 @@
 }
 
 
-.fab { 
-   
-animation-name: movement;
 
-    animation-duration:5s;
+.fab { 
+    
+    animation-name: movement;
+    animation-duration:8s;
     animation-iteration-count: infinite;
 }
 
 
 
+
 @keyframes movement {
    0% {
-        transform: rotate(10deg);
+        transform: rotate(20deg);
       }
-      50% {
-        transform: rotate(390deg);
+      33% {
+        transform: rotate(400deg);
       }
-      70% {
-        transform: rotate(390deg);
-     
+      66% {
+        transform: rotate(-20deg);}
+     100% { transform: (300deg);}
 
-}
+
 
 }
 
 
 .anim { 
-    
-    
- background-color: rgb(238, 243, 247);
+    box-sizing: border-box;
+    width: 2.6rem;
+    background-color: rgb(208, 218, 227);
     font-size: xx-large;
-    padding-top:2rem;
     border-radius: 8px; 
+    padding-left: 0.5rem; 
+    padding-right: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    margin-top: 2rem;
     
-
+    
 }
+
 
 
 .top1 { 
