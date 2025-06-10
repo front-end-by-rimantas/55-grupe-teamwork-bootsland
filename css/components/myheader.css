@@ -1,123 +1,35 @@
 .header {
     padding: 0;
     margin: 0;
+    height: 9.5vh;
     background-color: #f8f9fa;
     transition: all 0.5s;
 }
-.no-margin-bottom {
+.no-margin-header {
+    padding: 0;
+    margin-top: 16px;
     margin-bottom: 0;
 }
 .header .header-content {
     position: relative;
+    padding: 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.header-fixed {
-    position: fixed;
-    background-color: #fff;
-    box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    animation: 0.6s linear show-header;
-}
-@keyframes show-header {
-    0% {
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
-
-.header .logo {
-    display: flex;
-    padding: 0.5rem 0;
-    font-size: 2.2rem;
-    text-transform: capitalize;
-    text-decoration: none;
-}
-.startlogo {
-    color: #1d1d33;
-    text-decoration: none;
-}
-.header .logo .endlogo {
-    color: #1360ef;
-    font-weight: bold;
-    text-transform: capitalize;
-    text-decoration: none;
-}
-.header .main-nav {
-    display: none;
-    align-items: center;
-    gap: 3rem;
-}
-.main-nav a:first-child {
-    color: #1360ef;
-}
-.main-nav a:hover {
-    color: #1360ef;
-    transition: 0.6s;
-}
-.header .link {
-    font-size: 1.1rem;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-weight: bolder;
-    color: #1d1d33;
-}
-.header .hamburger {
-    font-size: 2rem;
-    padding: 0.3rem 0.45rem;
-    color: #495057;
-    background-color: #fff;
-    border: 5px solid #495057;
-    position: relative;
-}
-.btn-blue {
-    display: none;
-}
- 
-@media (min-width: 768px) {
-    .btn-blue {
-        display: flex;
-        margin-left: 2rem;
-    }
-} 
-@media (min-width: 992px) {
-    .hamburger {
-        display: none;
-    }
-    .header .main-nav {
-        display: flex;
-    }
-    .header .header-content {
-        justify-content: flex-end;
-        gap: 3rem;
-    }
-    .header .logo {
-        margin-right: auto;
-    }
-    .mobile-main-header {
-        display: none;
-    }
-}
-
 .mobile-main-header {
     position: absolute;
-    /* background-color: lightblue; */
+    background-color: lightblue;
+    width: 100%;
     padding: 1.5rem;
     border-radius: 0.5em;
     transition: all 1s;
-    translate: 0 -10%;
+    translate: 0 20%;
     display: none;
     box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important;
-    /* overflow: auto; */
+    overflow: auto;
 }
 @keyframes show-mobile-main-header {
     0% {
@@ -145,4 +57,88 @@
     color: #1360ef;
     transition: 0.6s;
 } 
+
+.header-fixed {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    animation: 0.6s linear show-header;
+}
+@keyframes show-header {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.logo {
+    width: 180px;
+}
+.header .main-nav {
+    display: none;
+    align-items: center;
+    gap: 2.5rem;
+}
+.main-nav a:first-child {
+    color: #1360ef;
+}
+.main-nav a:hover {
+    color: #1360ef;
+    transition: 0.6s;
+}
+.header .link {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #1d1d33;
+}
+.header .hamburger {
+    font-size: 2rem;
+    font-weight: 200;
+    padding: 0.3rem 0.45rem;
+    color: #495057;
+    background-color: #fff;
+    border: 5px solid #495057;
+}
+.btn-blue {
+    display: none;
+}
+ 
+@media (min-width: 768px) {
+    .btn-blue {
+        display: flex;
+        margin-left: 2rem;
+    }
+} 
+@media (min-width: 992px) {
+    .header {
+        height: 7.5vh;
+    }
+    .no-margin-header {
+        margin-top: 8px;
+    }
+    .hamburger {
+        display: none;
+    }
+    .header .main-nav {
+        display: flex;
+    }
+    .header .header-content {
+        justify-content: flex-end;
+        gap: 3rem;
+    }
+    .header .logo {
+        /* margin-right: auto; */
+    }
+    .mobile-main-header {
+        display: none;
+    }
+}
 

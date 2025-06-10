@@ -2,20 +2,16 @@ import { headerMenuData } from "../data/myheaderData.js";
 
 export function header() {
     let HTML = `
-        <div id="app" class="container header">
-            <div class="row no-margin-bottom">
+        <div class="container header">
+            <div class="row no-margin-header">
                 <div class="col-12 header-content">
-                    <div class="logo">       
-                        <a class="startlogo" href="#">boots<span class="endlogo">Land.</span></a>
-                    </div> 
+                    <img class="logo" src="./img/header-img/boots-logo.png" alt="logo">
                     ${headerMenu(headerMenuData)}
                     <i class="fa fa-bars hamburger"></i>
                     <button class="btn-blue" type="submit">buy now</button>
-                </div>
-            </div>
-            <div class="row">               
-                <div class="mobile-main-header col-12">
-                ${headerMenu(headerMenuData)}
+                </div>               
+                <div class="mobile-main-header">
+                    ${headerMenu(headerMenuData)}
                 </div>
             </div>
         </div>`;
