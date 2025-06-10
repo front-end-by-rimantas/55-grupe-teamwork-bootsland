@@ -27,4 +27,28 @@
 .trio-logo img {
     height: 4rem;
     object-fit: contain;
+     transition: all 300ms;
+}
+
+.active {
+    padding: 2rem 0 1rem 0; 
+    border-radius: 3px;
+    
+   
+ }
+
+@keyframes mymove {
+  from {top: 50px;}
+  to {top: 0px;}
+}
+
+.active:hover {
+    filter: grayscale(0%) brightness(100%);
+    transform: scale(1);
+    box-shadow: 0 0 10px 10px #dbdee6;
+    translate: 1s;
+    animation: mymove 3s infinite;
+    position: relative;
+    z-index: 1;
+
 }
