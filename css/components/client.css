@@ -32,9 +32,9 @@
     margin-bottom: 2rem;
 }
 .client-row {
-    display: flex;
+    display: flex;flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
-    gap: 1rem;
 }
 .client-row .cards-bar {
     display: flex;
@@ -44,6 +44,11 @@
     display: flex;
     flex-direction: row;
 }
+.cards-bar {
+    margin: 0;
+    padding: 0;
+}
+
 @media(min-width: 576px){
     .visit-card {
         width: calc(100% - 2rem);
@@ -76,39 +81,38 @@
     }
     .visit-card {
         display: flex;
-        flex-direction: row;
-        margin: 0.8rem;
-        width: calc((100% - 4rem) / 2);
+        flex-wrap: wrap;
+        margin: 0 0 1.5rem 1.5rem;
+        width: calc((100% - 3rem) / 2); 
         box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important;
+    }
+    .person-img {
+        width: 3.7rem;
+        height: 3.7rem;
     }
     .client-column {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         z-index: 0;
     }
     .cards {
+        position: relative;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-        /* .cards-bar {
-        position: relative;
-    }
-    .cards:nth-child(2) {
-        position: absolute;
-        top: 10%;
-        right: 0;
-    } */
     .card-column {
         display: flex;
         flex-direction: column;
-        position:unset
     }
-    .person-img {
-        width: 3.4rem;
-        height: 3.4rem;
-    }
+
+    /* .person-img {
+        width: 5rem;
+        height: 5rem;
+    } */
     .intro {
+        display: flex;
         font-size: 1.1rem;
     }
     .person-onus {
@@ -123,12 +127,6 @@
         height: 100%;
         width: 100%;
         transform: rotate(0);
-    }
-    .client-row {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: auto;
     }
     .person-img {
         width: 3rem;

@@ -27,7 +27,7 @@ export function client() {
             </svg>
         </div>
         <div class="client-row">
-            <div class="col-12 col-lg-6 client-column">
+            <div class="col-12 col-lg-4 client-column">
                 <div class="blue-area">
                     <i class="fa fa-users"></i>
                 </div>
@@ -35,7 +35,7 @@ export function client() {
                 <p class="description">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>
             </div>        
             <div class="cards-bar col-12 col-lg-6">
-                <div class="cards col-12">${cardsHTML}</div>
+                <div class="cards col-12 col-lg-8">${cardsHTML}</div>
             </div>
         </div>           
     </div>  `;
