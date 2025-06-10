@@ -6,7 +6,7 @@ export const bloglistData =
     card1: "Sass",
     h3: "Bootsland Perfect Performance landing Page", 
     h4: "Businesses need access to development resources serspiciatis unde omnis iste natus error.",
-    ull: `<i class="fa fa-comment-o" aria-hidden="true">131</i>                    
+    ul: `<i class="fa fa-comment-o" aria-hidden="true">131</i>                    
          <i class="fa fa-eye" aria-hidden="true">25</i>               
          <i class="fa fa-comment-o" aria-hidden="true">131</i>` 
 },
@@ -16,7 +16,7 @@ export const bloglistData =
     card1: "Marketing",
     h3: "The most powerfull template that make you.", 
     h4: "Businesses need access to development resources serspiciatis unde omnis iste natus error.",
-    ull: `<i class="fa fa-comment-o" aria-hidden="true">131</i>                    
+    ul: `<i class="fa fa-comment-o" aria-hidden="true">131</i>                    
          <i class="fa fa-eye" aria-hidden="true">25</i>               
          <i class="fa fa-comment-o" aria-hidden="true">131</i>`  
 },
@@ -27,7 +27,7 @@ export const bloglistData =
     card1: "Landing",
     h3: "A brand for a company is like a reputation person.", 
     h4: "Businesses need access to development resources serspiciatis unde omnis iste natus error.", 
-    ull: `<i class="fa fa-comment-o" aria-hidden="true">131</i>                    
+    ul: `<i class="fa fa-comment-o" aria-hidden="true">131</i>                    
          <i class="fa fa-eye" aria-hidden="true">25</i>               
          <i class="fa fa-comment-o" aria-hidden="true">131</i>` 
 }      

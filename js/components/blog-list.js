@@ -16,7 +16,7 @@ export function bloglist()
                     <h3 class="card-h3">${blis.h3}</h3>
                     <h4 class="card-h4">${blis.h4}</h4>
                     <a class="card-ul">                        
-                        ${blis.ull}                                                           
+                        ${blis.ul}                                                           
                      </a>    
                 </div>`;
    }      
