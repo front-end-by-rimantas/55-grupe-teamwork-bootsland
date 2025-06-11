@@ -19,9 +19,6 @@
 }
 .blue-area i {
     color: #fff;
-}
-/* .icon-area i {
-    color: rgb(18, 57, 222);
     animation-name: movement;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -39,7 +36,7 @@
      100% {
          transform: (300deg);
     }
-} */
+} 
 .client-column .title {
     font-size: 2.1rem;
     line-height: 1.3;
