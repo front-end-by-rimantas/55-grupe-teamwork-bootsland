@@ -20,6 +20,26 @@
 .blue-area i {
     color: #fff;
 }
+/* .icon-area i {
+    color: rgb(18, 57, 222);
+    animation-name: movement;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes movement {
+   0% {
+        transform: rotate(20deg);
+      }
+      33% {
+        transform: rotate(400deg);
+      }
+      66% {
+        transform: rotate(-20deg);
+    }
+     100% {
+         transform: (300deg);
+    }
+} */
 .client-column .title {
     font-size: 2.1rem;
     line-height: 1.3;
