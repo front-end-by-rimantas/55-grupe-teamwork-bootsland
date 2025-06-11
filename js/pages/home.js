@@ -7,6 +7,7 @@ import { focus } from "../components/focus.js";
 import { client } from "../components/client.js";
 import {bloglist} from "../components/blog-list.js";  
 import { footer } from "../components/footer.js";
+import {scroll} from "../components/scroll-to-top.js"
 
 header();
 letsWork();
@@ -17,7 +18,7 @@ focus();
 client();
 bloglist(); 
 footer();
-
+scroll()
 
 
 
