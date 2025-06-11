@@ -4,17 +4,12 @@
     color: rgb(18, 57, 227);
 }
 
-
-
 .fab { 
     
     animation-name: movement;
     animation-duration:8s;
     animation-iteration-count: infinite;
 }
-
-
-
 
 @keyframes movement {
    0% {
@@ -27,10 +22,7 @@
         transform: rotate(-20deg);}
      100% { transform: (300deg);}
 
-
-
 }
-
 
 .anim { 
     box-sizing: border-box;
@@ -42,12 +34,8 @@
     padding-right: 0.6rem;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
-    margin-top: 2rem;
-    
-    
+    margin-top: 2rem;    
 }
-
-
 
 .top1 { 
     font-size: 1.6rem;
@@ -78,13 +66,11 @@
 
 }
 
-
 .card-1-a {  
     font-size: 1.3rem;
     color: #8090b5;
     padding-top: 1rem;
     
-
 }
 .card-h3 { 
     font-size: 1.6rem;
@@ -99,13 +85,14 @@
     font-weight: normal;
     padding-bottom: 1rem;
     padding-top: 0.5rem;
-
+    
 }
 
 .card-ul { 
     display: flex;
     justify-content: flex-start;
-    gap:4rem
+    gap: 4rem;
+    margin-bottom: 3rem;    
 }
 
 .img-container { 
