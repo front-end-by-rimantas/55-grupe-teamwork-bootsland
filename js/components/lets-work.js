@@ -18,8 +18,8 @@ export function letsWork() {
                </div>
 
                 <div class="buttons">
-                  <button class="btn-blue" id="learn-more">Learn more</button>
-                  <button class="btn-white" id="get-started">Get Started</button>
+                  <button class="btn-blue btb" id="learn-more">Learn more</button>
+                  <button class="btn-white btw" id="get-started">Get Started</button>
 
                 </div> 
                  </div>
