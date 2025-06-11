@@ -1,0 +1,125 @@
+
+.fa { 
+   
+    color: rgb(18, 57, 227);
+}
+
+
+
+.fab { 
+    
+    animation-name: movement;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes movement {
+   0% {
+        transform: rotate(20deg);
+      }
+      33% {
+        transform: rotate(400deg);
+      }
+      66% {
+        transform: rotate(-20deg);}
+     100% { transform: (300deg);}
+
+
+
+}
+
+
+.anim { 
+    box-sizing: border-box;
+    width: 2.6rem;
+    background-color: rgb(208, 218, 227);
+    font-size: xx-large;
+    border-radius: 8px; 
+    padding-left: 0.5rem; 
+    padding-right: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    margin-top: 2rem;
+    
+    
+}
+
+
+
+.top1 { 
+    font-size: 1.6rem;
+    line-height: 1.5;
+         
+}
+
+.top2 { 
+    float: right;
+    font-size: 1rem;
+    color: #8090b5;
+    line-height: 1.5;
+}
+
+ 
+.card-1 { 
+    display: flex;
+    flex-direction: column;
+    gap: 0,9rem;
+    font-weight: normal;
+ 
+}
+.list-1 { 
+    background-color: white; 
+    border-radius: 10px;
+    object-fit: contain;
+    width: 100%;
+
+}
+
+
+.card-1-a {  
+    font-size: 1.3rem;
+    color: #8090b5;
+    padding-top: 1rem;
+    
+
+}
+.card-h3 { 
+    font-size: 1.6rem;
+    font-weight: normal;
+    padding-top: 0.5rem;
+    width: 90%;
+}
+
+.card-h4 { 
+    font-size: 1.35rem;
+    color: #8090b5;
+    font-weight: normal;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+
+}
+
+.card-ul { 
+    display: flex;
+    justify-content: flex-start;
+    gap:4rem
+}
+
+.img-container { 
+    position: relative;
+  
+}
+
+.img-add { 
+    position: absolute;
+    padding: 0.5rem ;
+    background-color:#FFFFFF;
+    box-shadow: 0 0.5rem 1rem rgba(110, 0, 255, .15);
+    margin-left: 1rem ;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    text-align: center;
+}

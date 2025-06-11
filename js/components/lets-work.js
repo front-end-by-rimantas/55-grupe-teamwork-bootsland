@@ -1,7 +1,7 @@
 import { workData } from "../data/lets-workData.js";
 
 export function letsWork() {
-   let h2HTML =  ""
+   let h2HTML =  "";
    for (const h2 of workData) {
       h2HTML +=`<h2 class="h1-1">${h2}</h2>`}
 
@@ -18,8 +18,8 @@ export function letsWork() {
                </div>
 
                 <div class="buttons">
-                  <button class="btn-blue" id="learn-more">Learn more</button>
-                  <button class="btn-white" id="get-started">Get Started</button>
+                  <button class="btn-blue btb" id="learn-more">Learn more</button>
+                  <button class="btn-white btw" id="get-started">Get Started</button>
 
                 </div> 
                  </div>
