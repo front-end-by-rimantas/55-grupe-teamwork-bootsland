@@ -3,7 +3,7 @@
 export function client() {
     let cardsHTML = '';
 
-    for (let i = 0; i < clientData.length; i++) {
+    for (let i = 0; i < 4; i++) {
 
         const card = clientData[i];
         cardsHTML += `
