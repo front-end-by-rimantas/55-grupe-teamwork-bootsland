@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-
 }
 
 .trio-title {
@@ -31,21 +30,32 @@
 
 .active {
     padding: 2rem 0 1rem 0; 
-    border-radius: 3px;   
+    border-radius: 0.3em;   
 }
-
-@keyframes mymove {
-  from {top: 15px;}
-  to {top: 0px;}
- 
-}
-
 .active:hover {
     filter: grayscale(0%) brightness(100%);
-    transform: scale(1);
-    box-shadow: 0 0 10px 10px #dbdee6;
-    translate: 1s;
-    animation: mymove 1s infinite;
-    position: relative;  
+    box-shadow: 0 0 1rem 1rem #dbdee6;
+}
 
+.active::before {
+    content: '';
+    display: block;
+    animation-name: movement;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: paused;
+}
+
+.active:hover::before {
+   animation-play-state: running;
+   animation-duration: 3s;
+}
+
+@keyframes movement {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
 }
