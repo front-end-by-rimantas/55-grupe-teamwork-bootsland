@@ -9,15 +9,15 @@ export function footer() {
             
                 <div class="links-title">
                     <div class="links-text">
-                        <div class="col-12 col-sm-4 col-lg-3">
+                        <div class="col-sm-12 col-lg-3">
                             <p class="links">Pages</p>
                              ${links.text} 
                         </div>
-                        <div class="col-12 col-sm-4 col-lg-3">
+                        <div class="col-sm-12 col-lg-3">
                             <p class="links">Service</p>
                             ${links.text}  
                         </div>
-                        <div class="col-12 col-sm-4 col-lg-3">
+                        <div class="col-sm-12 col-lg-3">
                             <p class="links">Legal</p>
                             ${links.text}  
                         </div>
@@ -47,10 +47,10 @@ export function footer() {
                </form>
                ${linksHTML}
                <div class="socials">
-                        <div class="col-12 col-sm-6">
+                        <div class="col-12 col-md-6">
                             <img src="./img/footer/logo-B.png" alt="logo-B">
                         </div>
-                        <div class="soc col-12 col-sm-6">
+                        <div class="soc col-12 col-md-6">
                             <a href="#" class="fa fa-facebook"></a>
                             <a href="#" class="fa fa-dribbble"></a>
                             <a href="#" class="fa fa-twitter"></a>
