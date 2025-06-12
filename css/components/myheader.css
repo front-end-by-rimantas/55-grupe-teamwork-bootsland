@@ -1,20 +1,17 @@
 .header {
-
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
-
     top: 0;
     left: 0;
     right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-
     background-color: #f8f9fa;
     transition: all 0.5s;
+    z-index: 5;
 }
+
 .header .header-content {
     position: relative;
     display: flex;
@@ -64,7 +61,7 @@
     padding: 1.5rem;
     border-radius: 0.5em;
     transition: all 1s;
-    translate: 0 27%;
+    translate: 0 3.2rem;
     display: none;
     box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important;
     overflow: auto;
@@ -76,7 +73,7 @@
         opacity: 0;
     }
     100% {
-        transform: translate(0px);
+        transform: translateY(0px);
         opacity: 1;
     }
 }
@@ -146,7 +143,7 @@
     }
  } 
 
-}
+
 
 
 

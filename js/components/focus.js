@@ -5,6 +5,9 @@ export function focus() {
                 <div class="col-12 col-lg-6">
                     <div class="focus-content">
                         <div class="focus-text">
+                        <div class="icon-area">          
+                            <i class="fa fa-exclamation" move></i>
+                        </div>
                             <h1 class="focus-title">Bootsland Focus on your success</h1>
                             <p class="focus-desc">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                         </div>           
