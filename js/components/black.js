@@ -20,8 +20,15 @@ export function black () {
     const HTML = `
         <section class="container black">
             <div class="row">
-                <h1 class="col-12 col-md-6 col-lg-4">One Platform, Deep Insight Why Choose Bootsland</h1>
-                ${blackHTML}
+                <div class="icon">
+                    <div class="cubes">
+                        <i class="fa fa-cubes" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">    
+                        <h1>One Platform, Deep Insight Why Choose Bootsland</h1>
+                    </div>
+                    ${blackHTML}
+                </div>
             </div>
         </section>`;
 

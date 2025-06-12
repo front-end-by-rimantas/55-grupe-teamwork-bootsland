@@ -16,18 +16,21 @@ export function bloglist()
                     <h3 class="card-h3">${blis.h3}</h3>
                     <h4 class="card-h4">${blis.h4}</h4>
                     <a class="card-ul">                        
-                        <i class="fa fa-comment-o" aria-hidden="true">131</i>                    
-                        <i class="fa fa-eye" aria-hidden="true">25</i>               
-                        <i class="fa fa-comment-o" aria-hidden="true">131</i>                                                            
+                        ${blis.ul}                                                           
                      </a>    
                 </div>`;
    }      
                  
   
 const HTML = `
-   <section>
+   <section> 
+                  <span class="row top col-7 m-md-3 anim">
+                    <i class="fa fa-bold fab" aria-hidden="true"></i>
+                    </span>
        <div class="row top col-12 col-6">
+               
                 <div class="top1 col-12 col-xxl-4">
+                     
                     <h3>From Our Blog List Latest Feed</h2>
                 </div>
                 <div class = "top2 col-12  col-xxl-6"> 
