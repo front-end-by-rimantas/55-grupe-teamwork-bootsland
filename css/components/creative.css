@@ -58,7 +58,7 @@
     background-color: #cfe2ff;
     color: #1360ef;
 }
-ul  {
+.list  {
     display: flex;
     flex-wrap: wrap;
     font-size: 1.2em;
