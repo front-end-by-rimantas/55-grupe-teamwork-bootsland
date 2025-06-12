@@ -34,7 +34,7 @@ export function client() {
                 <h2 class="title">Discover Our Client Feedback</h2>
                 <p class="description">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>
             </div>        
-            <div class="cards-bar col-12 col-lg-6">
+            <div class="cards-bar col-12 col-lg-">
                 <div class="cards col-12 col-lg-8">${cardsHTML}</div>
             </div>
         </div>           

@@ -18,10 +18,8 @@ export function creative() {
             </div>
             <h2 class="title">We're A Creative Software Landing Page</h2>
             <p class="description">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-            <ul>${liHTML}</ul>
-            <button class="btn-white button" type="submit">learn more</button>
-
-            
+            <ul class="list">${liHTML}</ul>
+            <button class="btn-white button" type="submit">learn more</button>            
         </div>
     </div>`;
 

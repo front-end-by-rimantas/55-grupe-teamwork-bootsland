@@ -1,3 +1,5 @@
+
+
 .section-client {
     display: flex;
     flex-direction: column;
@@ -128,7 +130,7 @@
     /* .person-img {
         width: 5rem;
         height: 5rem;
-    } */
+    }
     .intro {
         display: flex;
         font-size: 1.1rem;
@@ -170,6 +172,6 @@
         width: 5rem;
         height: 5rem;
     }
-}
+} */
 
    
