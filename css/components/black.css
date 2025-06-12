@@ -1,7 +1,7 @@
 .black {
     background-color: #060927;
 }
- 
+
 .cubes {
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@
     height: 3.3rem;
 }
 
-.cubes {
+.cubes i {
     animation-name: movement;
     animation-duration:8s;
     animation-iteration-count: infinite;
