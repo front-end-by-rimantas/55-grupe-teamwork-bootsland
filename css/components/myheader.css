@@ -1,5 +1,4 @@
 .header {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,8 +11,9 @@
     padding-bottom: 0;
     background-color: #f8f9fa;
     transition: all 0.5s;
-    z-index: 2;
+    z-index: 5;
 }
+
 .header .header-content {
     position: relative;
     display: flex;
