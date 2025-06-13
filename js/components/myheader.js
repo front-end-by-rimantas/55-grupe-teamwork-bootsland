@@ -2,7 +2,7 @@ import { headerMenuData } from "../data/myheaderData.js"
 
 export function header() {
     let HTML = `
-            <div class="container header">
+        <div class="container header">
             <div class="row">
                 <div class="col-12 header-content">
                     <img class="logo" src="./img/header-img/boots-logo.png" alt="logo">
