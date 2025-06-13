@@ -8,41 +8,49 @@ position: absolute;
 top: -1em;
 right: -0.7em;
 background-color:#1360ef;
-border: 0.1em solid #f8f9fa;
+overflow: hidden;
 text-align: center;
 text-decoration: none;
-margin-top: 1340px;
-margin-right: 75px;
+margin-top: 1380px;
+margin-right: 75px;  
+transition: all 0.3s ease-in-out; 
+position: fixed;
+text-rendering: auto;
 
-
-    
 }
 
 .scrl-btn:hover { 
+  transition: 0.2s;
+  box-sizing: border-box;
   background-color: azure;
-  cursor: pointer;
-  
-
+  cursor: pointer;  
 }
 
- .fa-angle-up { 
-
-
+.fa-angle-up { 
 margin-bottom: 0.2rem;
 font-size: 150%;  
 color: #f8f9fa;
-border: none;
-z-index: 6;
 
+z-index: 6;
+padding: 10px;
+padding-top: 2px ;
  }
 
  .fa-angle-up::before {
-  width: fit-content;
+
+
+
+ 
+  
  }
 
 .fa-angle-up:hover { 
-  color:#1360ef;
+
+   
+ color: #1461f0;
   
+
+
 }
 
 
@@ -78,6 +86,7 @@ scroll-top.scroll-visible {
     -ms-transform: translate3d(0, 200%, 0);
     transform: translate3d(0, 200%, 0);
 }
+/*
 body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
