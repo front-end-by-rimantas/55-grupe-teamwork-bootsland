@@ -61,7 +61,7 @@
     transition: all 1s;
     display: none;
     box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important;
-    animation: 1.5s linear show-mobile-mine-header;
+    animation: 0.5s linear show-mobile-main-header;
 }
 @keyframes show-mobile-main-header {
     0% {
@@ -69,7 +69,7 @@
         opacity: 0;
     }
     100% {
-        transform: translate(0px);
+        transform: translateY(0px);
         opacity: 1;
     }
 }
