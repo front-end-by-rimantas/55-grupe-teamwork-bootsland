@@ -64,7 +64,7 @@
     display: none;
     box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important;
     overflow: auto;
-    animation: 1.5s linear show-mobile-mine-header;
+    animation: 0.5s linear show-mobile-main-header;
 }
 @keyframes show-mobile-main-header {
     0% {
