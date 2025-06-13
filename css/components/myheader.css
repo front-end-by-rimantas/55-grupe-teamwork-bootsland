@@ -11,9 +11,6 @@
     transition: all 0.5s;
     z-index: 5;
 }
-.btn-blue {
-    margin: 0;
-}
 .header .header-content {
     position: relative;
     display: flex;
